@@ -30,7 +30,7 @@ git clone https://gitee.com/touchscale/Qsign
 ```
 使用 **github** 
 ```
-git clone https://github.com/touchscale/Qsign
+git clone https://github.com/RainyHallways/Qsign
 ```
 
 3. 按照 **使用教程.txt** 里的教程完成搭建
@@ -68,7 +68,7 @@ netstat -lntp
 
 
 ```
-cd unidbg-fetch-qsign&&bash bin/unidbg-fetch-qsign --basePath=txlib/8.9.80
+cd unidbg-fetch-qsign&&bash bin/unidbg-fetch-qsign --basePath=txlib/8.9.93
 ```
 
 注意：版本号可更改
@@ -93,7 +93,7 @@ screen -S qsign
 
 
 ```
-cd unidbg-fetch-qsign&&bash bin/unidbg-fetch-qsign --basePath=txlib/8.9.80
+cd unidbg-fetch-qsign&&bash bin/unidbg-fetch-qsign --basePath=txlib/8.9.93
 ```
 
 注意：版本号可更改
@@ -108,7 +108,7 @@ cd unidbg-fetch-qsign&&bash bin/unidbg-fetch-qsign --basePath=txlib/8.9.80
 - 可以试试先执行pnpm i，再执行依赖安装指令
 
 2. Api连接超时
-- 打开配置文件，将端口号更改一下(就是port: 801，801改为任意数字)，重启api再试
+- 打开配置文件，将端口号更改一下(就是port: 8080，8080改为任意数字)，重启api再试
 
 3.APi频繁崩溃
 - 目前测试API使用83及以上QQ版本会出现这种情况，可以参考issues[#I8GLZN](https://gitee.com/touchscale/Qsign/issues/I8GLZN)进行解决（感谢[batvbs](https://gitee.com/batvbs)提供的解决方法），或者使用NTQQ
